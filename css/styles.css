@@ -1,0 +1,347 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #ffffff;
+    --accent-color: #2196F3;
+}
+
+
+/* page 1 (main)*/
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    color: #212121;
+}
+
+/* header */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    color: black;
+    line-height: 31px;
+    letter-spacing: 0.03em
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.link {
+    list-style-type: none;
+    line-height: 16px;
+    letter-spacing: 0.02em
+}
+
+.link-nav {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em
+}
+
+.link-nav:hover,
+.link-nav:focus {
+    color: var(--accent-color);
+}
+
+.cont {
+    color: #757575;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em
+}
+
+.cont:hover,
+.cont:focus{
+    color: var(--accent-color);
+}
+
+
+/* main */
+
+/* Эффективные решения для вашего бизнеса */
+
+.background {
+    background-color: #2F303A;
+}
+
+.solutions {
+    color: var(--title-text-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em
+}
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    line-height: 30px;
+    letter-spacing: 0.06em
+}
+
+/* Особенности */
+
+.opasity {
+    opacity: 0;
+    display: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list-h {
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em
+}
+
+.description {
+    color: #757575;
+    line-height: 24px;
+    letter-spacing: 0.03em
+}
+
+/* Чем мы занимаемся */
+
+.doing {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em
+}
+
+/* наша команда */
+
+.team {
+    background: #F5F4FA;
+    width: 1600px;
+}
+
+.our-team {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em
+}
+
+.name {
+    color: var(--primary-text-color);
+    line-height: 19px;
+    letter-spacing: 0.03em
+}
+
+.description-team {
+    color: #757575;
+    line-height: 19px;
+    letter-spacing: 0.03em
+}
+
+.card01 {
+    background: #FFFFFF;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.img-igor {
+    width: 270px;
+}
+
+.card02 {
+    background: #FFFFFF;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.img-olga {
+    width: 270px;
+}
+
+.card03 {
+    background: #FFFFFF;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.img-nikolay {
+    width: 270px;
+}
+
+.card04 {
+    background: #FFFFFF;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.img-mykhail {
+    width: 270px;
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.logo2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    color: white;
+}
+
+.cont1 {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em
+}
+
+.cont1:hover,
+.cont1:focus {
+    color: var(--accent-color)
+}
+
+
+
+/* page 2 (portfolio) */
+
+
+
+.buttons {
+    width: 128px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.buttons:hover, 
+.buttons:focus {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+}
+
+.card1 {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.card2 {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.card3 {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.card4 {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.card5 {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.card6 {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.card7 {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.card8 {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.card9 {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.name1 {
+    width: 322px;
+    height: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em
+}
+
+.description1 {
+    color: #757575;
+    width: 322px;
+    height: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em
+}

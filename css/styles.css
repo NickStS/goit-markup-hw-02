@@ -35,12 +35,11 @@ body {
 }
 
 .logo-web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .link {
     list-style-type: none;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em
 }
@@ -49,8 +48,7 @@ body {
     color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em
 }
 
@@ -62,12 +60,11 @@ body {
 }
 
 .cont {
-    color: #757575;
+    color: var(--primary-seventy-color);
     text-decoration: none;
     font-weight: 500;
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em
 }
 
@@ -127,8 +124,7 @@ body {
 }
 
 .description {
-    color: #757575;
-    font-size: 14px;
+    color: var(--primary-seventy-color);
     line-height: 1.71;
     letter-spacing: 0.03em
 }
@@ -160,19 +156,19 @@ body {
 .name {
     color: var(--primary-text-color);
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
     letter-spacing: 0.03em
 }
 
 .description-team {
-    color: #757575;
+    color: var(--primary-seventy-color);
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
     letter-spacing: 0.03em
 }
 
 .card {
-    background: #FFFFFF;
+    background: var(--title-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -194,7 +190,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     text-decoration: none;
     color: var(--title-text-color);
 }
@@ -202,9 +198,7 @@ body {
 .cont-one {
     color: var(--title-text-color);
     text-decoration: none;
-    font-weight: 500;
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em
 }

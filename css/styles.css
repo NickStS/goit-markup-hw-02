@@ -244,8 +244,6 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-left: 24px;
-    margin-right: 24px;
 }
 
 .description-one {
@@ -253,7 +251,4 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 20px;
 }
